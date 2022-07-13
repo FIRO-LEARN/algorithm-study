@@ -1,7 +1,8 @@
 if __name__ == '__main__':
-    v = int(input())
 
-    if v < 0 or v > 100:
+    v = input().split()
+
+    if v < 1 or v > 6:
         print("score range error")
     else:
         if v >= 90 and v <= 100:
