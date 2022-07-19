@@ -9,5 +9,4 @@ if __name__ == '__main__':
             value = value + (line - 1)
         else:
             value = value + line
-        print(value)
-
+    print(value)
